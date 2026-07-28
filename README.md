@@ -1,3 +1,11 @@
+# 🛡️ PathGuard
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
+![LoRa](https://img.shields.io/badge/LoRa-IoT-blue?style=for-the-badge)
+![GPS](https://img.shields.io/badge/GPS-Tracking-green?style=for-the-badge)
     # 🛡️ PathGuard — Smart Security & Tracking System
 
 **PathGuard** is an **IoT + Web + Security Monitoring** project that combines **GPS tracking, real-time map visualization, intrusion detection, and Arduino-based hardware integration** into one platform.  
