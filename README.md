@@ -6,7 +6,6 @@
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)
 ![LoRa](https://img.shields.io/badge/LoRa-IoT-blue?style=for-the-badge)
 ![GPS](https://img.shields.io/badge/GPS-Tracking-green?style=for-the-badge)
-    # 🛡️ PathGuard — Smart Security & Tracking System
 
 **PathGuard** is an **IoT + Web + Security Monitoring** project that combines **GPS tracking, real-time map visualization, intrusion detection, and Arduino-based hardware integration** into one platform.  
 
