@@ -5,7 +5,7 @@
 <h1 align="center">🛡️ IoT-Based Soldier Detection & Tracking System</h1>
 
 <h3 align="center">
-Project Name: <b>PathGuard</b>
+Team Name: <b>PathGuard</b>
 </h3>
 
 <p align="center">
@@ -29,11 +29,42 @@ Project Name: <b>PathGuard</b>
 
 ---
 
+## 📑 Table of Contents
+
+- Overview
+- Highlights
+- Features
+- Technologies
+- Hardware Connection
+- Project Structure
+- Installation
+- CyberWall Module
+- Future Improvements
+- Screenshots
+- Repository Information
+- Team
+- License
+
+---
+
 # 📖 Overview
 
 The **IoT-Based Soldier Detection & Tracking System (PathGuard)** is an intelligent defense monitoring solution designed to improve battlefield awareness through **real-time soldier tracking**.
 
 The project combines **ESP32**, **GPS**, **LoRa Communication**, **React**, and **Node.js** to provide accurate soldier locations on an interactive dashboard, helping command centers monitor personnel and respond quickly during critical missions.
+
+---
+
+# ⭐ Highlights
+
+- 🚀 Real-time GPS Tracking
+- 📡 Long-range LoRa Communication
+- 🛰 ESP32 Embedded System
+- 🌐 React Web Dashboard
+- ⚡ Node.js REST API
+- 🔒 CyberWall Security Module
+- 📍 Live Soldier Monitoring
+- 🛡 Defense-Oriented IoT Solution
 
 ---
 
@@ -119,16 +150,26 @@ The project combines **ESP32**, **GPS**, **LoRa Communication**, **React**, and 
 
 # 🏗 System Architecture
 
-🚧 **Architecture Diagram Coming Soon**
-
-The architecture includes:
-
-- ESP32
-- GPS Module
-- LoRa Communication
-- Node.js Backend
-- React Dashboard
-- Command Center
+                    Soldier Device
+                  (ESP32 + GPS + LoRa)
+                          │
+                          │ GPS Coordinates
+                          ▼
+                    LoRa Communication
+                          │
+                          ▼
+                   Node.js / Express API
+                          │
+            ┌─────────────┴─────────────┐
+            ▼                           ▼
+      MongoDB / Storage          CyberWall Security
+            │                           │
+            └─────────────┬─────────────┘
+                          ▼
+                 React Dashboard (Web)
+                          │
+                          ▼
+                 Commander / Admin User
 
 ---
 
@@ -207,28 +248,6 @@ Testing can be performed using **Postman** or simulated JSON requests.
 
 ---
 
-# 📸 Screenshots
-
-## 🖥 Dashboard
-
-🚧 Under Development
-
----
-
-## 🗺 Live Map
-
-🚧 Under Development
-
----
-
-# 🌐 Live Demo
-
-🚧 Coming Soon...
-
-The application will be deployed after development is complete.
-
----
-
 # 🚀 Future Improvements
 
 - 🤖 AI-powered Threat Detection
@@ -244,9 +263,19 @@ The application will be deployed after development is complete.
 
 ---
 
+# 📊 Repository Information
+
+- 💻 Language: JavaScript, React, Node.js
+- 🛰 Hardware: ESP32, GPS, LoRa
+- 🏷 Project Type: IoT + Web Application
+- 🎯 Domain: Defense Technology
+- 📅 Status: Active Development
+
+---
+
 # 👨‍💻 Team
 
-## Project Name
+## Team Name
 
 **PathGuard**
 
