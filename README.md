@@ -1,4 +1,26 @@
 <p align="center">
+
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Made%20With-React-61DAFB?style=for-the-badge&logo=react"/>
+
+<img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js"/>
+
+<img src="https://img.shields.io/badge/Hardware-ESP32-red?style=for-the-badge"/>
+
+</p>
+
+## ⭐ Repository Stats
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArunaKumarGouda&repo=PathGaurd&theme=tokyonight"/>
+
+</p>
+
+<p align="center">
   <img src="assets/pathguard-banner.png" width="100%" alt="Project Banner">
 </p>
 
@@ -169,7 +191,7 @@ Testing can be performed using Postman or simulated JSON data.
 
 # 👨‍💻 Team
 
-**Project Name:** PathGuard
+**Project Team Name:** PathGuard
 
 Developed as an IoT-based defense tracking solution for monitoring soldier locations in real time.
 
@@ -178,6 +200,26 @@ Developed as an IoT-based defense tracking solution for monitoring soldier locat
 # 📜 License
 
 This project is developed for educational and research purposes.
+
+# 🌐 Live Demo
+
+🚧 Coming Soon...
+
+The project will be deployed after development is complete.
+
+# 📸 Screenshots
+
+### Dashboard
+
+Coming Soon
+
+### Hardware Setup
+
+<img src="assets/hardware-connection.jpeg" width="700"/>
+
+### Live Map
+
+Coming Soon
 
 ---
 
