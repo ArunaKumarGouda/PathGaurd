@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/pathguard-banner.png" width="100%" alt="IoT-Based Soldier Detection & Tracking System Banner">
+  <img src="assets/pathguard-banner.jpeg" width="100%" alt="IoT-Based Soldier Detection & Tracking System Banner">
 </p>
 
 <h1 align="center">🛡️ IoT-Based Soldier Detection & Tracking System</h1>
