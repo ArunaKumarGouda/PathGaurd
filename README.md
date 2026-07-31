@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/assets/pathguard-banner.png" width="100%" alt="Project Banner">
+  <img src="assets/pathguard-banner.png" width="100%" alt="Project Banner">
 </p>
 
 <h1 align="center">
