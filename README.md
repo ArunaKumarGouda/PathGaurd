@@ -78,13 +78,20 @@ The project combines **ESP32**, **GPS**, **LoRa Communication**, **React**, and 
 
 ---
 
-## ⭐ Repository Statistics
+# 📊 Project Statistics
 
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ArunaKumarGouda&repo=PathGaurd&theme=tokyonight"/>
-
-</p>
+| Category | Details |
+|----------|---------|
+| 🚀 Project Status | Active Development |
+| 💻 Frontend | React + Vite |
+| ⚙ Backend | Node.js + Express |
+| 📡 Hardware | ESP32 + GPS + LoRa |
+| 🌐 Communication | REST API |
+| 🔒 Security | CyberWall Module |
+| 📍 Domain | Defense Technology |
+| 👨‍💻 Team Name | PathGuard |
+| 📅 Version | v1.0 |
+| 🎯 Platform | Web + IoT |
 
 ---
 
