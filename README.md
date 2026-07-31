@@ -1,97 +1,192 @@
 <p align="center">
-  <img src="assets/pathguard-banner.png" width="100%" alt="PathGuard Banner">
+  <img src="assets/pathguard-banner.png" width="100%" alt="Project Banner">
 </p>
 
-<h1 align="center">🛡️ PathGuard</h1>
+<h1 align="center">
+🛡️ IoT-Based Soldier Detection & Tracking System
+</h1>
 
 <h3 align="center">
-IoT-Based Soldier Detection & Tracking System
+Project Name: <b>PathGuard</b>
 </h3>
 
 <p align="center">
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
-
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs"/>
-
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express"/>
-
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge"/>
-
 <img src="https://img.shields.io/badge/GPS-0078D4?style=for-the-badge"/>
-
 <img src="https://img.shields.io/badge/LoRa-00599C?style=for-the-badge"/>
 
 </p>
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
-PathGuard is an IoT-based defense monitoring system designed to provide real-time soldier location tracking, secure communication, and battlefield awareness using ESP32, GPS, LoRa, React, and Node.js. 
+The **IoT-Based Soldier Detection & Tracking System (PathGuard)** is an intelligent defense monitoring solution designed to improve battlefield awareness through **real-time soldier tracking**.
 
-PathGuard is an innovative GPS-based tracking system designed for defense and military operations.
-The primary goal of this project is to track the real-time location of soldiers on the battlefield, ensuring better coordination, safety, and rapid response in critical missions.
-
-This system bridges the gap between field soldiers and command centers by providing accurate, real-time location data that can save lives during high-risk operations.
+The system combines **ESP32**, **GPS**, **LoRa communication**, **React**, and **Node.js** to provide accurate soldier locations on an interactive dashboard, helping command centers monitor personnel and respond quickly during critical missions.
 
 ---
 
-## ✨ Features
-- 🚗 Real-time **GPS location tracking**
-- 🗺️ Interactive **map visualization** (frontend)
-- 🔒 **CyberWall security module** for detecting suspicious traffic/logs
-- 📡 **Arduino hardware integration** (ESP32 + LoRa + GPS)
-- 🔗 **Backend APIs** for communication between devices and dashboard
-- 🧩 Modular folder structure (easy to maintain & extend)
+# ✨ Features
+
+- 📍 Real-time GPS location tracking
+- 📡 Long-range LoRa communication
+- 🛰 ESP32-based embedded system
+- 🗺 Interactive React dashboard
+- 🔗 REST API using Node.js & Express
+- 🔒 CyberWall security monitoring
+- ⚡ Live communication between hardware and web dashboard
+- 📊 Easy-to-maintain modular architecture
 
 ---
 
-## 📂 Project Structure
+# 🛠 Technologies Used
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+
+### Backend
+
+- Node.js
+- Express.js
+
+### Hardware
+
+- ESP32
+- GPS Module
+- LoRa Module
+
+### Tools
+
+- Git
+- GitHub
+- Arduino IDE
+- VS Code
+
+---
+
+# 🖼 Hardware Connection
+
+<p align="center">
+
+<img src="assets/hardware-connection.jpg" width="700"/>
+
+</p>
+
+---
+
+# 📂 Project Structure
+
+```text
 PathGuard/
-├─ frontend/ → React (Vite) based UI dashboard
-├─ backend/ → Node.js/Express REST API server
-├─ gps-tracker/ → GPS tracking service (Node.js)
-├─ arduino_sketches/ → Arduino (.ino) codes for ESP32 + LoRa + GPS
-├─ .gitignore
-└─ README.md
-
-
+│
+├── frontend/
+├── backend/
+├── gps-tracker/
+├── arduino_sketches/
+├── assets/
+│   └── hardware-connection.jpg
+│
+├── .gitignore
+└── README.md
+```
 
 ---
 
-## ⚙️ Setup & Run Instructions
+# ⚙ Installation
 
-### 🔸 1. Frontend (React/Vite)
+## 1️⃣ Frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
+```
 
-🔸 2. Backend (Node/Express)
+---
+
+## 2️⃣ Backend
+
+```bash
 cd backend
 npm install
 npm start
+```
 
+---
 
-🔸 3. GPS Tracker Service
+## 3️⃣ GPS Tracker
 
+```bash
 cd gps-tracker
 npm install
 node server.js
+```
 
-🔸 4. Arduino Sketches
-Open arduino_sketches/*.ino files in Arduino IDE
-Select board & port → Upload
+---
 
-🛡️ CyberWall Module
+## 4️⃣ Arduino
 
-The CyberWall module is designed to:
-Collect logs and network traffic data
-Detect anomalies or attack patterns
-Provide alerts on the dashboard
-Initial testing can be done using dummy traffic generators and manual JSON log submissions (via Postman).
+1. Open Arduino IDE.
+2. Open the `.ino` file from `arduino_sketches`.
+3. Select the correct ESP32 board.
+4. Select the COM port.
+5. Upload the sketch.
 
-A Project Dedicated to Soldiers
+---
 
-“Not all heroes wear capes, some wear uniforms. PathGuard ensures they return home safe.”
+# 🔒 CyberWall Module
+
+The CyberWall module provides an additional security layer by:
+
+- Monitoring incoming data
+- Detecting suspicious activities
+- Identifying abnormal communication
+- Sending alerts to the dashboard
+
+Testing can be performed using Postman or simulated JSON data.
+
+---
+
+# 🚀 Future Improvements
+
+- AI-based anomaly detection
+- Mobile application
+- SOS emergency alert button
+- Geofencing
+- Offline synchronization
+- Cloud deployment
+- Advanced analytics dashboard
+
+---
+
+# 👨‍💻 Team
+
+**Project Name:** PathGuard
+
+Developed as an IoT-based defense tracking solution for monitoring soldier locations in real time.
+
+---
+
+# 📜 License
+
+This project is developed for educational and research purposes.
+
+---
+
+<p align="center">
+
+<b>"Not all heroes wear capes. Some wear uniforms."</b>
+
+<br><br>
+
+⭐ If you like this project, consider giving it a star.
+
+</p>
